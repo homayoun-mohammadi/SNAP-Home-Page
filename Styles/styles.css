@@ -1,0 +1,108 @@
+:root {
+    --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 845px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px;
+    --bs-breakpoint-xxl: 1400px;
+}
+
+body {
+    font-family: IRANSansMobile-fa, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #21aa58;
+}
+
+.form-control {
+    color: white;
+    background-color: transparent;
+    border-radius: 50px;
+    border: none;
+    
+}
+
+#sendlinkbtn {
+    border-radius: 5px;
+    color: #21aa58;
+    background-color: white;
+}
+
+#webapp {
+    padding-bottom: 25px;
+    
+}
+
+#webappbtn {
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+}
+
+#pic-side {
+    background-color: #21aa58;
+    color: white;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.snappfeat {
+    background-color: #f2f5f8;
+}
+
+.container {
+    flex-wrap: wrap;
+   }
+
+.card {
+    --bs-card-border-width: 0;
+    text-align: center;
+    width: 25%;
+    box-sizing: border-box;
+    max-width: 25%;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.card-img-top {
+    width: 48px;
+    height: 48px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.card-text {
+    color: gray;
+}
+
+#carouselpics {
+    border-radius: 30px;
+}
+
+.midpagethreepics {
+    background-color: #f2f5f8;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -75px;
+}
+
+#driverreg {
+    align-items: center;
+}
+
+#jazbvideo {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.cardd2 {
+    width: 90%;
+    max-width: 90%;
+    border-radius: 25px;
+}
